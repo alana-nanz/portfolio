@@ -140,12 +140,11 @@
     </section>
     <section id="about">
       <div class="about-wrapper">
-        <img src="img/headshot.png" alt="headshot">
+        <img id="headshot" src="img/headshot.png" alt="headshot">
         <div class="about-description-wrapper">
           <h1>Hi! I'm Alana Nanz.</h1>
-          <h2>I'm a Front End Developer that loves clean and elegant code.</h2>
-          <p>I come to the tech field with a background in performing arts administration. I've always been creative, with a strong eye for detail. After working with platforms like WordPress and Drupal, I decided I wanted to see what's under the hood learn how to code. After creating my first website from scratch, I was hooked! When I'm not coding, I'm buildling puzzles, trying new recipes and chasing my two-year-old daughter and bernedoodle around our back yard.</p>
-          <p><strong>I can't wait to work with you!</strong></p>
+          <h2 id="about-description">I'm a Front End Developer who loves creating clean, responsive websites.</h2>
+          <p class="about-text">I come to the tech field with a background in performing arts administration. I've always been creative, with a strong eye for detail. After working with platforms like WordPress and Drupal, I decided I wanted to see what's under the hood learn how to code. After creating my first website from scratch, I was hooked! When I'm not coding, I'm buildling puzzles, trying new recipes and chasing my two-year-old daughter and bernedoodle around our back yard.<br><br><strong>I can't wait to work with you!</strong></p>
         </div>
       </div>
     </section>
@@ -154,14 +153,16 @@
     <h1>Let's Connect</h1>
     <div class="contact-wrapper">
       <div class="contact-section">
-        <h2>Hire me</h2>
+        <h2 class="contact-heading">Hire me</h2>
         <address>
-          <p>386-793-6423</p>
-          <a href="mailto:readalana@gmail.com">readalana@gmail.com</a>
+          <p class="contact-info">386-793-6423
+            <br>
+            <a id="email" href="mailto:readalana@gmail.com">readalana@gmail.com</a>
+          </p>
         </address>
       </div>
       <div class="contact-section">
-        <h2>Follow me</h2>
+        <h2 class="contact-heading">Follow me</h2>
         <div class="social">
           <p>
             <a href="https://www.linkedin.com/in/alanananz/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -172,12 +173,14 @@
         </div>
       </div>
       <div class="contact-section">
-        <h2>Meet me</h2>
-        <p>Raleigh, NC<br>
-        Let's grab coffee or go to a meetup!</p>
+        <h2 class="contact-heading">Meet me</h2>
+        <p  class="contact-info">Raleigh, NC<br>
+        Let's grab coffee <br>or go to a meetup!</p>
       </div>
     </div>
-    <p class="copyright">Copyright 2022 | Alana Nanz</p>
+    <div id="copyright">
+      <p class="contact-info">Copyright 2022 | Alana Nanz</p>
+    </div>
   </footer>
 
 
