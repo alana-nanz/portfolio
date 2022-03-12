@@ -421,7 +421,7 @@ i {
 
   h2 {
     font-size: 24px;
-    padding: 50px 0;
+    padding: 50px 80px;
   }
 
   /*****PROJECTS*****/
@@ -445,7 +445,7 @@ i {
     padding: 30px;
   }
 
-  /*****PROJECTS*****/
+  /*****SKILLS*****/
   #skills {
     padding: 50px 30px 40px 30px;
   }
@@ -477,14 +477,18 @@ i {
   }
 
   #headshot {
-    width: 50%;
+    width: 40%;
     padding-bottom: 53px;
   }
 
   #about-description {
-    padding: 30px 0;
+    padding: 30px 80px;
     font-size: 20px;
     text-align: left;
+  }
+
+  .about-text {
+    padding: 30px 80px 10px 80px;
   }
 
   /*****FOOTER*****/
@@ -503,12 +507,126 @@ i {
 /*Desktop styles here*/
 @media only screen and (min-width: 1200px) {
 
+  /*****HEADER*****/
+  header {
+    padding: 40px 100px 120px 100px;
+  }
+  
+  nav {
+    padding: 40px 0;
+  }
 
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  li {
+    padding-left: 10px;
+  }
+
+  #introduction {
+    padding: 40px 0 20px 0;
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 32px;
+    padding: 20px 150px;
+  }
+
+  /*****PROJECTS*****/
+  #projects {
+    margin: 0;
+    padding: 80px 20px 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .project {
+    width: 25%;
+    padding: 20px 25px 40px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .skills {
+    font-size: 20px;
+  }
+
+  /*****SKILLS*****/
+  #skills {
+    padding: 50px 30px;
+  }
+
+  .skills-wrapper {
+    padding: 10px 0 30px 0;
+  }
+
+  .skill {
+    width: 25%;
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  /*****ABOUT*****/
+  #about {
+    padding: 80px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  #headshot {
+    width: 30%;
+    padding: 0 80px 0 0;
+  }
+
+  #about-intro {
+    text-align: left;
+    padding: 0;
+  }
+
+  #about-description {
+    font-size: 30px;
+    padding: 40px 0;
+  }
+
+  .about-text {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  /*****FOOTER*****/
+  .contact-wrapper {
+    padding: 50px 0;
+  }
+
+  .contact-section {
+    padding: 0 50px;
+  }
+
+  .contact-heading {
+    font-size: 30px;
+  }
+
+  .contact-info {
+    font-size: 20px;
+  }
+
+  i {
+    font-size: 32px;
+  }
 }
-
-
-
-
 
 
 
