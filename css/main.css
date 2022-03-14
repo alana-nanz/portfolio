@@ -94,7 +94,7 @@ html {
   color: #152A3E;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: 'Alike', serif;
   text-align: center;
 }
@@ -102,7 +102,7 @@ h1, h2, h3, h4 {
 /*****HEADER*****/
 header {
   background-color: #EEEFDA;
-  padding: 0 30px 50px 30px;
+  padding: 0 30px 30px 30px;
 }
 
 nav {
@@ -127,29 +127,30 @@ li a {
   color: #152A3E;
   font-size: 12px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-button {
+#contact-button {
   background-color: #152A3E;
   border-radius: 30px;
   padding: 8px 12px;
   border: none;
+  color: white;
 }
 
-button:hover {
+#contact-button:hover {
   background-color: #B4C7D9;
+  color: #152A3E;
 }
 
 .header-button {
-  background-color: #EEEFDA;;
+  background-color: #EEEFDA;
+  border-radius: 30px;
+  padding: 8px 12px;
 }
 
 .header-button:hover {
   background-color: #CAC691;
-}
-
-#contact-font {
-  color: white;
 }
 
 h1 {
@@ -159,7 +160,7 @@ h1 {
 }
 
 h2 {
-  padding: 0 0 30px 0;
+  padding: 30px 0;
   margin: 0;
   font-size: 20px;
 }
@@ -169,8 +170,14 @@ h2 {
   margin: 30px 30px 0 30px;
 }
 
+h3 {
+  font-size: 26px;
+  padding: 30px 0;
+  margin: 0;
+}
+
 .project {
- padding: 0 0 60px 0;
+ padding: 10px 0 40px 0;
 }
 
 img {
@@ -178,7 +185,7 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h3 {
+h4 {
   margin: 0;
   padding: 40px 0 20px 0;
   font-size: 20px;
@@ -195,7 +202,7 @@ span {
 
 .skills {
   margin: 0;
-  padding: 10px 0 20px 0;
+  padding: 20px 0;
 }
 
 .link {
@@ -206,20 +213,28 @@ span {
 }
 
 .project-link {
+  text-transform: uppercase;
   text-decoration: none;
   color: white;
-  text-transform: uppercase;
+  background-color: #152A3E;
+  border-radius: 30px;
+  padding: 8px 40px;
 }
 
-.live-page-link {
-  padding: 15px 50px;
+.project-link:hover {
+  background-color: #B4C7D9;
+  color: #152A3E;
 }
 
 
 /*****SKILLS*****/
 #skills {
-  padding: 50px 30px 60px 30px;
+  padding: 30px;
   background-color: #EEEFDA;
+}
+
+.skills-wrapper {
+  padding: 10px 0;
 }
 
 .skill {
@@ -230,7 +245,7 @@ span {
   text-transform: uppercase;
 }
 
-h4 {
+h5 {
   font-size: 20px;
   margin: 0;
   padding: 10px 0;
@@ -239,12 +254,20 @@ h4 {
 
 /*****ABOUT*****/
 #about {
-  padding: 80px 30px 70px 30px;
+  padding: 60px 30px 50px;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #headshot {
   box-shadow: none;
   padding-bottom: 10px;
+  width: 80%;
 }
 
 #about-description {
@@ -260,7 +283,7 @@ h4 {
 /*****FOOTER*****/
 #contact {
   background-color: #EEEFDA;
-  padding: 50px 30px 20px 30px;
+  padding: 30px;
 }
 
 .contact-section {
@@ -297,7 +320,7 @@ i {
 }
 
 #copyright {
-  padding: 30px 0 60px 0;
+  padding: 30px 0;
 }
 
 
@@ -421,7 +444,7 @@ i {
 
   h2 {
     font-size: 24px;
-    padding: 50px 80px;
+    padding: 50px 0;
   }
 
   /*****PROJECTS*****/
@@ -429,7 +452,7 @@ i {
     margin: 50px 40px;
   }
 
-  h1 {
+  h3 {
     font-size: 32px;
     padding: 30px 0;
   }
@@ -447,7 +470,7 @@ i {
 
   /*****SKILLS*****/
   #skills {
-    padding: 50px 30px 40px 30px;
+    padding: 50px 30px;
   }
 
   .skills-wrapper {
@@ -469,15 +492,8 @@ i {
     padding: 80px 50px 70px 50px;
   }
 
-  .about-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
   #headshot {
-    width: 40%;
+    width: 45%;
     padding-bottom: 53px;
   }
 
@@ -492,10 +508,14 @@ i {
   }
 
   /*****FOOTER*****/
+  #contact {
+    padding: 50px 30px;
+  }
+
   .contact-wrapper {
     display: flex;
     justify-content: center;
-    padding: 20px 0 50px 0;
+    padding: 30px 0;
   }
 
   .contact-section {
@@ -509,7 +529,7 @@ i {
 
   /*****HEADER*****/
   header {
-    padding: 40px 100px 120px 100px;
+    padding: 40px 100px 80px;
   }
   
   nav {
@@ -539,11 +559,15 @@ i {
   /*****PROJECTS*****/
   #projects {
     margin: 0;
-    padding: 80px 20px 40px;
+    padding: 70px 20px 40px;
   }
 
-  h1 {
+  h3 {
     font-size: 40px;
+  }
+
+  .project-wrapper {
+    padding: 10px 0 0;
   }
 
   .project {
@@ -561,7 +585,7 @@ i {
 
   /*****SKILLS*****/
   #skills {
-    padding: 50px 30px;
+    padding: 70px 30px;
   }
 
   .skills-wrapper {
@@ -576,7 +600,7 @@ i {
 
   /*****ABOUT*****/
   #about {
-    padding: 80px;
+    padding: 100px 80px;
   }
 
   .about-wrapper {
@@ -587,7 +611,7 @@ i {
   }
 
   #headshot {
-    width: 30%;
+    width: 40%;
     padding: 0 80px 0 0;
   }
 
@@ -607,8 +631,12 @@ i {
   }
 
   /*****FOOTER*****/
+  #contact {
+    padding: 70px 0;
+  }
+
   .contact-wrapper {
-    padding: 50px 0;
+    padding: 30px 0;
   }
 
   .contact-section {
