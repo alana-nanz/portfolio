@@ -309,11 +309,15 @@ h5 {
   font-style: normal;
 }
 
-#email {
+#link {
   text-align: center;
   text-decoration: none;
   font-style: normal;
   color: #152A3E;
+}
+
+#link:hover {
+  color: #B4C7D9;
 }
 
 .social {
